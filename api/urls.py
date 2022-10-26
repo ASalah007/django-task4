@@ -15,4 +15,6 @@ urlpatterns= [
         path('', StudentListView.as_view()),
         path('<int:pk>/', StudentDetailView.as_view())
     ])),
+
+
 ]
